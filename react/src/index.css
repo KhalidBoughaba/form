@@ -1,0 +1,157 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('animated-svg.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 70px;
+  color: #f1c083;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.userInfo,
+._loginRegister{
+  background-color: rgb(333 333 333 / 10%);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 
+      rgb(0 0 0 / 25%) 0px 54px 55px, 
+      rgb(0 0 0 / 12%) 0px -12px 30px, 
+      rgb(0 0 0 / 12%) 0px 4px 6px, 
+      rgb(0 0 0 / 17%) 0px 12px 13px, 
+      rgb(0 0 0 / 9%) 0px -3px 5px;
+    backdrop-filter: blur(3px);
+}
+
+._loginRegister .form-control{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+._loginRegister .form-control label{
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+[type="text"],
+[type="email"],
+[type="password"]{
+  padding:7px 10px;
+  outline: none;
+  margin-bottom: 5px;
+  font-size: 16px;
+  border-radius: 13px;
+  
+    border: 1px solid rgba(0, 0, 0, .3);
+}
+
+[type="text"]:hover,
+[type="text"]:focus,
+[type="email"]:hover,
+[type="email"]:focus,
+[type="password"]:hover,
+[type="password"]:focus
+{
+  border-color: #f1c083;
+}
+.input {
+  background: hsl(0deg 0% 87% / 50%);
+  border-radius: 10px;
+}
+
+._navBtn button,
+[type="submit"]{
+  background: #f1c083;
+  color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, .1);
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 20px;
+ 
+  
+  margin-top: 5px;
+  /* box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); */
+  outline: none;
+}
+._navBtn button:hover,
+[type="submit"]:hover{
+  opacity: .9;
+}
+
+._navBtn{
+  border-top: 1px solid #dedede;
+  margin-top: 5px;
+}
+._navBtn button{
+  background: #555555;
+  color: #ffffff;
+  width: 100%;
+  
+}
+
+.success-msg,
+.error-msg{
+  border: 1px solid #ff0026;
+  padding: 10px;
+  color: #ff0228;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.success-msg{
+  color: #00ff8c;
+  border-color: #00ff8c;
+}
+
+.userInfo{
+  text-align: center;
+}
+/* Border Home */
+/* .userInfo .Home {
+  margin-top: 300px;
+} */
+.userInfo h1{
+  text-transform: capitalize;
+  margin: 10px 0;
+}
+.userInfo ._email{
+  margin: 10px 0;
+  color: #c5a174;
+}
+.userInfo button{
+  margin-top: 5px;
+  background: #f1c083;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 5px solid rgba(0, 0, 0, .1);
+  outline: none;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  transition: background .3s;
+}
+.userInfo button:hover {
+  border-color: #f1c083;
+  color: black;
+  background: #ffffff;
+}
